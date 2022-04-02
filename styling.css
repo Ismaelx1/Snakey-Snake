@@ -22,10 +22,27 @@ body {
 .snake {
     background-color: black;
     border: .25vmin solid white;
+    border-radius: 4px;
 }
 
 .food {
     background-color: blueviolet;
     border: .25vmin solid white;
+    border-radius: 50%;
 
+}
+
+h1 {
+   
+    color: blueviolet;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.gud {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
