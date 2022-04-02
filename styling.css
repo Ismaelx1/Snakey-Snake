@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+   background-image: url(/drk.jpg);
+   background-size: cover;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -11,12 +12,14 @@ body {
 }
 
 #board {
-    background-color: white;
+    background-color: #ccc;
     width: 500px;
     height: 500px;
     display: grid;
     grid-template-columns: repeat(21, 1fr);
     grid-template-rows: repeat(21, 1fr);
+    border-radius: 10px;
+ 
 }
 
 .snake {
