@@ -7,6 +7,7 @@ let newsegment = 0;
 const snakeBody = [
  
     {x: 11, y: 11}
+
     
 ]
 

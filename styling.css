@@ -30,7 +30,7 @@ body {
 
 .food {
     background-color: blueviolet;
-    border: .25vmin solid white;
+    border: .25vmin solid blueviolet;
     border-radius: 50%;
 
 }

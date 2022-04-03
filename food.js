@@ -1,6 +1,13 @@
 import { onSnake, expandSnake} from './snake.js'
 import {randomGrid} from './grid.js'
 
+
+const random1 = Math.floor(Math.random() * 256)
+const random2 = Math.floor(Math.random() * 256)
+const random3 = Math.floor(Math.random() * 256)
+const bgvalue = `rgb(${random1}, ${random2}, ${random3})`
+const foody = document.querySelector('.food')
+
 let food = randomFood()
 
 const EXPANSION_RATE = 1;
@@ -25,10 +32,16 @@ export function draw(gameBoard) {
 
 function randomFood() {
     let newFoodPos
-
+    
     while (newFoodPos == null || onSnake(newFoodPos)) {
         newFoodPos = randomGrid()
     }
     return newFoodPos
+ 
+
+}
+
+export function colorFood() {
+foody.style.backgroundColor = bgvalue
 
 }
