@@ -19,7 +19,7 @@ body {
     grid-template-columns: repeat(21, 1fr);
     grid-template-rows: repeat(21, 1fr);
     border-radius: 10px;
- 
+    margin-bottom: 10em;
 }
 
 .snake {
@@ -48,4 +48,20 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+}
+
+.score {
+    display: flex;
+}
+#score_label {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+#score {
+    color: white;
+    margin-bottom: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
 }
