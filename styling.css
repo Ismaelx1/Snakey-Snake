@@ -50,18 +50,9 @@ h1 {
     align-items: flex-start;
 }
 
-.score {
+#score_board {
+    font-size: 40px;
+    color: #ccc;
     display: flex;
-}
-#score_label {
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
-}
-
-#score {
-    color: white;
-    margin-bottom: 2em;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    justify-content: space-between;
 }
